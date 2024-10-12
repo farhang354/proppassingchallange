@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prop Firm Challenge Passing Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://your-image-url-here') no-repeat center center/cover;
+            height: 100vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+
+        .cta-btn {
+            background-color: #ffd700;
+            padding: 15px 30px;
+            border: none;
+            color: #000;
+            text-transform: uppercase;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 50px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        .services h2 {
+            margin-bottom: 40px;
+        }
+
+        .services .service {
+            display: inline-block;
+            width: 45%;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: white;
+        }
+
+        .services .service h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .services .service p {
+            margin-bottom: 20px;
+        }
+
+        .services .service .price {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #000;
+        }
+
+        /* Portfolio Section */
+        .portfolio {
+            padding: 50px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .portfolio h2 {
+            margin-bottom: 30px;
+        }
+
+        .portfolio .project {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: white;
+        }
+
+        .portfolio .project h3 {
+            font-size: 1.3em;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 50px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        .contact h2 {
+            margin-bottom: 40px;
+        }
+
+        .contact form {
+            display: inline-block;
+            text-align: left;
+            width: 50%;
+            margin: auto;
+        }
+
+        .contact form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+        }
+
+        .contact form input[type="submit"] {
+            background-color: #000;
+            color: white;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+        }
+
+        .contact form input[type="submit"]:hover {
+            background-color: #333;
+        }
+
+        /* Footer */
+        footer {
+            padding: 20px;
+            background-color: #000;
+            color: white;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Prop Firm Challenge Passing Services</h1>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Pass Your Prop Firm Challenge</h1>
+        <p>Guaranteed & Non-Guaranteed Services for Gold and US30 Traders</p>
+        <button class="cta-btn">Get Started Now</button>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Non-Guaranteed Service</h3>
+            <p>Payment is received after passing the challenge. Focused exclusively on gold and US30 trading.</p>
+            <p class="price">Fees: $79 (10k) | $110 (15k) | $139 (25k) | $269 (50k) | $499 (100k) | $999 (200k)</p>
+        </div>
+        <div class="service">
+            <h3>Guaranteed Service</h3>
+            <p>Account refunded in case of failure. Fee for Phase One is received initially, and Phase Two after completion.</p>
+            <p class="price">Phase One: $110 (10k) | $159 (15k) | $259 (25k) | $499 (50k)</p>
+            <p class="price">Phase Two: $299 (10k) | $279 (15k) | $359 (25k) | $499 (50k)</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Our Successful Passes</h2>
+        <div class="project">
+            <h3>25k Challenge Passed</h3>
+            <p>FTMO Account passed in 14 days, focused on Gold trading.</p>
+        </div>
+        <div class="project">
+            <h3>50k Challenge Passed</h3>
+            <p>MyForexFunds account passed in 21 days, using US30 strategy.</p>
+        </div>
+        <div class="project">
+            <h3>100k Challenge Passed</h3>
+            <p>FTMO account passed in 18 days, focused on Gold trading.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="mailto:proppassingchallenge100@gmail.com" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Prop Firm Challenge Passing Services | <a href="mailto:proppassingchallenge100@gmail.com">Email Us</a></p>
+    </footer>
+
+</body>
+</html>
